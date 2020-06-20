@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name=""),
     path('annotate', annotate, name=""),
+    path('aggregate', aggregate, name=""),
 ]

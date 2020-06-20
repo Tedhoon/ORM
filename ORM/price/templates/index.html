@@ -1,8 +1,8 @@
 {% for pro in product%}
-    <div>{{pro.name}}</div>
-    <div>{{pro.price}}</div>
+    <div>name : {{pro.name}}</div>
+    <div>price : {{pro.price}}</div>
     {% for log in pro.orderlog_set.all %}
-        <div>{{log.created}}</div>
+        <div>created: {{log.created}}</div>
     {% endfor %}
     <hr>
 {% endfor %}
