@@ -20,4 +20,5 @@ from price.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name=""),
+    path('annotate', annotate, name=""),
 ]
