@@ -22,4 +22,5 @@ urlpatterns = [
     path('', index, name=""),
     path('annotate', annotate, name=""),
     path('aggregate', aggregate, name=""),
+    path('daily_price', daily_price, name=""),
 ]
